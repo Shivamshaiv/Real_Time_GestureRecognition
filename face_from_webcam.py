@@ -4,9 +4,9 @@ import time
 # multiple cascades: https://github.com/Itseez/opencv/tree/master/data/haarcascades
 
 
-face_cascade = cv2.CascadeClassifier('C:\\Users\\ACER\\Desktop\\haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('C:\\Users\\ACER\\Desktop\\haarcascade_eye.xml')
-nose_cascade=cv2.CascadeClassifier('C:\\Users\\ACER\\Desktop\\haarcascade_mcs_nose.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+nose_cascade=cv2.CascadeClassifier('haarcascade_mcs_nose.xml')
 cap = cv2.VideoCapture(0)
 
 font = cv2.FONT_HERSHEY_SIMPLEX
